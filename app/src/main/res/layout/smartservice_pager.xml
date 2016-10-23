@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.cjj.MaterialRefreshLayout xmlns:atguigu="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/refreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        atguigu:isLoadMore="true"
+        atguigu:overlay="true"
+        atguigu:progress_colors="@array/material_colors"
+        atguigu:progress_size_type="normal"
+        atguigu:wave_color="#90ffffff"
+        atguigu:wave_height_type="normal"
+        atguigu:wave_show="true">
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    </com.cjj.MaterialRefreshLayout>
+
+    <ProgressBar
+        android:id="@+id/pb_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:indeterminateDrawable="@drawable/custom_progressbar"
+        android:visibility="visible" />
+
+
+</RelativeLayout>

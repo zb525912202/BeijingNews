@@ -1,0 +1,63 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+    defaultConfig {
+        applicationId "com.atguigu.beijingnews"
+        minSdkVersion 14
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.3.0'
+    compile project(':SlidingMenu_library')
+    compile project(':xutils')
+    //    compile 'org.xutils:xutils:3.3.36'//鍏宠仈缃戠粶鐨�
+    compile files('libs/gson-2.2.1.jar')
+    compile project(':ViewPagerIndicator_library')
+    compile files('libs/glide-3.7.0.jar')
+    compile project(':RefreshListView')
+    compile project(':PullToRefresh_library')
+    compile files('libs/volley.jar')
+    compile 'com.android.support:design:23.3.0'
+    compile files('libs/jpush-android-2.1.9.jar')
+    compile files('libs/picasso-2.5.2.jar')
+    compile project(':ImageLoader_library')
+    compile project(':PhotoView_library')
+    compile project(':okhttputils_library')
+    compile files('libs/MobCommons-2016.0816.1507.jar')
+    compile files('libs/ShareSDK-Wechat-Favorite-2.7.6.jar')
+    compile files('libs/ShareSDK-Alipay-2.7.6.jar')
+    compile files('libs/ShareSDK-Core-2.7.6.jar')
+    compile files('libs/ShareSDK-Email-2.7.6.jar')
+    compile files('libs/ShareSDK-QQ-2.7.6.jar')
+    compile files('libs/ShareSDK-QZone-2.7.6.jar')
+    compile files('libs/ShareSDK-ShortMessage-2.7.6.jar')
+    compile files('libs/ShareSDK-SinaWeibo-2.7.6.jar')
+    compile files('libs/ShareSDK-TencentWeibo-2.7.6.jar')
+    compile files('libs/ShareSDK-Wechat-2.7.6.jar')
+    compile files('libs/ShareSDK-Wechat-Core-2.7.6.jar')
+    compile files('libs/ShareSDK-Wechat-Moments-2.7.6.jar')
+    compile files('libs/MobTools-2016.0816.1507.jar')
+    compile files('libs/jpush-android-2.1.9.jar')
+    compile project(':MaterialRefreshLayout_library')
+    compile files('libs/alipaySdk-20160809.jar')
+}
+
+//allprojects {
+//    repositories {
+//        maven { url "https://jitpack.io" }
+//    }
+//}

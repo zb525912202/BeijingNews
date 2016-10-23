@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/tv_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="空空如也..."
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#802f4f4f"
+        android:gravity="center_vertical">
+
+        <CheckBox
+            android:id="@+id/checkbox_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:button="@drawable/checkbox_selector"
+            android:text="全选"
+            android:textColor="#66ffffff"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/tv_total_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/checkbox_all"
+            android:text="合计￥1000"
+            android:textColor="#ff0000"
+            android:textSize="16sp" />
+
+
+        <Button
+            android:id="@+id/btn_order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/btn_buy_selector"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="去结算"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/btn_buy_selector"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="删除"
+            android:textColor="@android:color/white"
+            android:visibility="gone" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
