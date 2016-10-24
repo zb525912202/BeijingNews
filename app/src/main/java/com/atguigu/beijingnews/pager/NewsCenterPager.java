@@ -41,10 +41,7 @@ import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * 作者：尚硅谷-杨光福 on 2016/8/15 09:53
- * 微信：yangguangfu520
- * QQ号：541433511
+/** 
  * 作用：新闻中心
  */
 public class NewsCenterPager extends BasePager {
