@@ -26,9 +26,6 @@ import java.util.List;
 import okhttp3.Call;
 
 /**
- * 作者：尚硅谷-杨光福 on 2016/8/15 09:53
- * 微信：yangguangfu520
- * QQ号：541433511
  * 作用：智慧服务
  */
 public class SmartServicePager extends BasePager {
