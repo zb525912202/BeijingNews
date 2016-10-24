@@ -9,9 +9,6 @@ import com.atguigu.beijingnews.base.BasePager;
 import com.atguigu.beijingnews.utils.LogUtil;
 
 /**
- * 作者：尚硅谷-杨光福 on 2016/8/15 09:53
- * 微信：yangguangfu520
- * QQ号：541433511
  * 作用：设置中心
  */
 public class SettingPager extends BasePager {
