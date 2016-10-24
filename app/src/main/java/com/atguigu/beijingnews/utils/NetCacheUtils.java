@@ -1,4 +1,4 @@
-package com.atguigu.beijingnews.utils;
+﻿package com.atguigu.beijingnews.utils;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -13,9 +13,6 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * 作者：尚硅谷-杨光福 on 2016/8/26 10:23
- * 微信：yangguangfu520
- * QQ号：541433511
  * 作用：网络缓存工具类
  */
 public class NetCacheUtils {

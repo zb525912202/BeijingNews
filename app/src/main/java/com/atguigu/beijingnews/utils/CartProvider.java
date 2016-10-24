@@ -1,4 +1,4 @@
-package com.atguigu.beijingnews.utils;
+﻿package com.atguigu.beijingnews.utils;
 
 import android.content.Context;
 import android.text.TextUtils;
@@ -13,9 +13,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 作者：尚硅谷-杨光福 on 2016/8/29 15:31
- * 微信：yangguangfu520
- * QQ号：541433511
  * 作用：数据存储类，存储数据；存储数据--把集合转成String类型存储（Gson）；取数据--把String转换成列表数据(Gson)
  */
 public class CartProvider {

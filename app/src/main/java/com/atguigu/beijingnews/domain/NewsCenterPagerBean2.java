@@ -1,11 +1,8 @@
-package com.atguigu.beijingnews.domain;
+﻿package com.atguigu.beijingnews.domain;
 
 import java.util.List;
 
 /**
- * 作者：尚硅谷-杨光福 on 2016/8/16 09:27
- * 微信：yangguangfu520
- * QQ号：541433511
  * 作用：手动写json解析对应的对象
  */
 public class NewsCenterPagerBean2 {

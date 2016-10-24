@@ -1,12 +1,9 @@
-package com.atguigu.beijingnews.utils;
+﻿package com.atguigu.beijingnews.utils;
 
 import android.graphics.Bitmap;
 import android.os.Handler;
 
 /**
- * 作者：尚硅谷-杨光福 on 2016/8/26 10:14
- * 微信：yangguangfu520
- * QQ号：541433511
  * 作用：图片三级缓存的工具类
  */
 public class BitmapCacheUtils {

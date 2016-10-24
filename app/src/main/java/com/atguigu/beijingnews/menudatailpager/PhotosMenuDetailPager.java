@@ -1,4 +1,4 @@
-package com.atguigu.beijingnews.menudatailpager;
+﻿package com.atguigu.beijingnews.menudatailpager;
 
 import android.content.Context;
 import android.content.Intent;
@@ -43,9 +43,6 @@ import java.util.List;
 import okhttp3.Call;
 
 /**
- * 作者：尚硅谷-杨光福 on 2016/8/15 15:19
- * 微信：yangguangfu520
- * QQ号：541433511
  * 作用：图组详情页面
  */
 public class PhotosMenuDetailPager extends MenuDetaiBasePager {

@@ -1,4 +1,4 @@
-package com.atguigu.beijingnews.menudatailpager.tabdetailpager;
+﻿package com.atguigu.beijingnews.menudatailpager.tabdetailpager;
 
 import android.content.Context;
 import android.support.v4.view.PagerAdapter;
@@ -37,9 +37,6 @@ import org.xutils.x;
 import java.util.List;
 
 /**
- * 作者：尚硅谷-杨光福 on 2016/8/16 10:57
- * 微信：yangguangfu520
- * QQ号：541433511
  * 作用：页签详情页面
  */
 public class TopicDetailPager extends MenuDetaiBasePager {

@@ -1,4 +1,4 @@
-package com.atguigu.beijingnews.base;
+﻿package com.atguigu.beijingnews.base;
 
 import android.content.Context;
 import android.view.View;
@@ -11,9 +11,6 @@ import com.atguigu.beijingnews.R;
 import com.atguigu.beijingnews.activity.MainActivity;
 
 /**
- * 作者：尚硅谷-杨光福 on 2016/8/15 09:37
- * 微信：yangguangfu520
- * QQ号：541433511
  * 作用：基类或者说公共类
  * HomePager,NewsCenterPager,
  * SmartServicePager,GovaffairPager

@@ -1,11 +1,8 @@
-//package com.atguigu.beijingnews.domain;
+﻿//package com.atguigu.beijingnews.domain;
 //
 //import java.util.List;
 //
 ///**
-// * 作者：尚硅谷-杨光福 on 2016/8/15 14:04
-// * 微信：yangguangfu520
-// * QQ号：541433511
 // * 作用：新闻中心解析后对应的数据
 // */
 //public class NewsCenterPagerBean {

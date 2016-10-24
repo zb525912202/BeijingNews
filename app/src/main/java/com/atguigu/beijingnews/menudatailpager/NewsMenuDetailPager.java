@@ -1,4 +1,4 @@
-package com.atguigu.beijingnews.menudatailpager;
+﻿package com.atguigu.beijingnews.menudatailpager;
 
 import android.content.Context;
 import android.support.v4.view.PagerAdapter;
@@ -23,9 +23,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 作者：尚硅谷-杨光福 on 2016/8/15 15:19
- * 微信：yangguangfu520
- * QQ号：541433511
  * 作用：新闻详情页面
  */
 public class NewsMenuDetailPager extends MenuDetaiBasePager {

@@ -1,12 +1,9 @@
-package com.atguigu.beijingnews.base;
+﻿package com.atguigu.beijingnews.base;
 
 import android.content.Context;
 import android.view.View;
 
 /**
- * 作者：尚硅谷-杨光福 on 2016/8/15 15:13
- * 微信：yangguangfu520
- * QQ号：541433511
  * 作用：详情页面的基类
  */
 public abstract class MenuDetaiBasePager {

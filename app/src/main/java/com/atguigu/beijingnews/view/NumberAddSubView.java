@@ -1,4 +1,4 @@
-package com.atguigu.beijingnews.view;
+﻿package com.atguigu.beijingnews.view;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -15,9 +15,6 @@ import android.widget.TextView;
 import com.atguigu.beijingnews.R;
 
 /**
- * 作者：尚硅谷-杨光福 on 2016/8/29 14:17
- * 微信：yangguangfu520
- * QQ号：541433511
  * 作用：自定义数子添加减少按钮
  */
 public class NumberAddSubView extends LinearLayout implements View.OnClickListener {

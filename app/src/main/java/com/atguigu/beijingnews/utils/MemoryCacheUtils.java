@@ -1,13 +1,10 @@
-package com.atguigu.beijingnews.utils;
+﻿package com.atguigu.beijingnews.utils;
 
 import android.graphics.Bitmap;
 
 import org.xutils.cache.LruCache;
 
 /**
- * 作者：尚硅谷-杨光福 on 2016/8/26 11:52
- * 微信：yangguangfu520
- * QQ号：541433511
  * 作用：Java之软引用&弱引用&虚引用
  */
 public class MemoryCacheUtils {
