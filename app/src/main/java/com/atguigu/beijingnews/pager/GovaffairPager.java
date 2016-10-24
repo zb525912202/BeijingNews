@@ -35,9 +35,6 @@ import java.util.Locale;
 import java.util.Random;
 
 /**
- * 作者：尚硅谷-杨光福 on 2016/8/15 09:53
- * 微信：yangguangfu520
- * QQ号：541433511
  * 作用：政要指南
  */
 public class GovaffairPager extends BasePager {
