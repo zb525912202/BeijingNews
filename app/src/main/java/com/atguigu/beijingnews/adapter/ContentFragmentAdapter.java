@@ -8,12 +8,7 @@ import com.atguigu.beijingnews.base.BasePager;
 
 import java.util.ArrayList;
 
-/**
- * 作者：尚硅谷-杨光福 on 2016/8/15 11:18
- * 微信：yangguangfu520
- * QQ号：541433511
- * 作用：ContentFragmentAdapter
- */
+
 public class ContentFragmentAdapter  extends PagerAdapter {
 
     private final ArrayList<BasePager> basePagers;
