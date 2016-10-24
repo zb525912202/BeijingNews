@@ -19,9 +19,6 @@ import com.atguigu.beijingnews.utils.LogUtil;
 import java.util.List;
 
 /**
- * 作者：尚硅谷-杨光福 on 2016/8/13 15:39
- * 微信：yangguangfu520
- * QQ号：541433511
  * 作用：左侧菜单的Fragment
  */
 public class LeftmenuFragment extends BaseFragment {
