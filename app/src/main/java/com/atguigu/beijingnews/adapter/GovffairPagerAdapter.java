@@ -19,9 +19,6 @@ import java.util.Iterator;
 import java.util.List;
 
 /**
- * 作者：尚硅谷-杨光福 on 2016/8/30 09:10
- * 微信：yangguangfu520
- * QQ号：541433511
  * 作用：购物车的适配器
  */
 public class GovffairPagerAdapter extends RecyclerView.Adapter<GovffairPagerAdapter.ViewHolder> {
