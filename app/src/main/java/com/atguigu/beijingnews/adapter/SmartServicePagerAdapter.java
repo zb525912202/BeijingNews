@@ -19,9 +19,6 @@ import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import java.util.List;
 
 /**
- * 作者：尚硅谷-杨光福 on 2016/8/29 10:40
- * 微信：yangguangfu520
- * QQ号：541433511
  * 作用：商城热卖的适配器
  */
 public class SmartServicePagerAdapter extends RecyclerView.Adapter<SmartServicePagerAdapter.ViewHolder> {
